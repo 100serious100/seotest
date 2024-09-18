@@ -60,7 +60,7 @@ p b {
 }
 
 .pop_up_body {
-    margin: 160px 600px 290px 600px;
+    margin: auto;
     width: 350px;
     background-color: white;
     border-radius: 10px;
@@ -98,7 +98,7 @@ p b {
 .submit {
     cursor: pointer;
     position: relative;
-    bottom: 50px;
+    bottom: 30px;
     width: 330px;
     margin: 0px auto 0px auto;
     padding: 20px 0px;
