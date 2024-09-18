@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание на должность Web-мастер/Младший Web-разработчик</title>
+    <meta name="description" content="На этой странице отображен результат тестового задания.">
+    <link rel="stylesheet" href="/test/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Вакансия веб-программист</h1>
+    </div>
+    <div id="main">
+        <h3 class="heading">Тестовое задание на должность Web-мастер/Младший Web-разработчик </h3>
+        <p>1. Зарегистрировать бесплатный хостинг и домен.</p>
+        <p>2. Развернуть на бесплатном хостинге WP.</p>
+        <p>3. Шрифт на сайте «montserrat». Цвет #333333</p>
+        <p>4. Создать страницу.</p>
+        <p>5. Прописать на ней мета-теги:</p>
+        <p><b>Title: Тестовое задание на должность Web-мастер/Младший Web-разработчик</b></p>
+        <p><b>Description: На этой странице отображен результат тестового задания.</b></p>
+        <p><b>H1: Вакансия веб-программист</b></p>
+        <p>6. После H1 разместить текст текущего тестового задания</p>
+        <p>7. Поставить в тексте на словосочетание «форму обратной связи» ссылку, при нажатии на которое откроется форма
+            обратной связи в popup.</p>
+        <p>8. Реализовать <a href="#" id="open_pop_up"> форму обратной связи </a> в popup окне (готовые решения и
+            плагины использовать
+            запрещено, библиотечки можно).</p>
+    </div>
+
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body">
+                <p>Обратный звонок</p>
+                <form action="/test/php/sandmail.php" id="pop_up_form" method="post">
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" placeholder="Введите ваше имя" id="name" maxlength="50"><br><br>
+                    <label for="tel">Телефон</label>
+                    <input type="text" name="tel" class="tel"><br><br>
+                    <input type="checkbox" name="checkbox" class="checkbox" required checked/><br><br>
+                    <label for="checkbox" class="accept_inf">Согласиться на обработку персональных данных</label>
+                    <input type="submit" name="submit" class="submit" value="Отправить">
+                </form>
+                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+            </div>
+        </div>
+    </div>
+    <script src="/test/js/main.js"></script>
+</body>
+
+</html>
