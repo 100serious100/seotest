@@ -30,7 +30,7 @@ body {
 }
 
 body p {
-    /*margin: 10px 0px;*/
+    margin: 10px 0px;
 }
 
 .heading {
@@ -54,17 +54,18 @@ p b {
 }
 
 .pop_up_container {
-    display: flex;
+    display:flex;
     width: 100%;
     height: 100%;
 }
 
 .pop_up_body {
-    margin: auto;
+    margin: 160px 600px 290px 600px;
     width: 350px;
     background-color: white;
     border-radius: 10px;
     text-align: center;
+    padding: 50px 15px;
     position: relative;
 }
 
@@ -73,12 +74,12 @@ p b {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #333333;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .pop_up_body input {
     display: block;
-    margin: 25px auto 0px auto;
+    margin: 10px auto 0px auto;
     width: 300px;
     padding: 17px 20px;
     background-color: #e0e0e0;
@@ -96,7 +97,8 @@ p b {
 
 .submit {
     cursor: pointer;
-    display: inline-block;
+    position: relative;
+    bottom: 50px;
     width: 330px;
     margin: 0px auto 0px auto;
     padding: 20px 0px;
@@ -119,7 +121,6 @@ p b {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #333333;
-    margin-bottom: 40px;
     text-align: left;
 }
 
